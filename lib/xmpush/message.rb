@@ -3,7 +3,7 @@ module Xmpush
     EXTRA_PREFIX = 'extra.'
     attr_accessor :payload, :title, :description, :time_to_live, :time_to_send, :extra, :notify_type, :restricted_package_name
 
-    def initialize(payload: "", restricted_package_name: "", title: "", description: "", time_to_live: "", time_to_send: "", extra: "", notify_type: "")
+    def initialize(payload: "", restricted_package_name: "", title: "", description: "", time_to_live: "", time_to_send: "", extra: "", notify_type: "", pass_through: '')
       @payload = payload
       @restricted_package_name = restricted_package_name
       @title = title
