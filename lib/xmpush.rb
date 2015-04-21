@@ -47,8 +47,8 @@ module Xmpush
         message.values.each{|v| v.merge!(alias: options[:alias])}
         resource_post('alias', message)
       when :regid
-        return "must input regid" unless options[:regid]
-        message.values.each{|v| v.merge!(regid: options[:regid])}
+        return "must input regid" unless options[:registration_id]
+        message.values.each{|v| v.merge!(registration_id: options[:registration_id])}
         resource_post('regid', message)
       when :topic
         return "must input topic" unless options[:topic]
