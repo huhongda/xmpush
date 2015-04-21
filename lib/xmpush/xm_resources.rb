@@ -5,7 +5,7 @@ module Xmpush
 
     OFFICIAL_DOMAIN = "https://api.xmpush.xiaomi.com"
     SANDBOX_DOMAIN = "https://sandbox.xmpush.xiaomi.com"
-    REG_URL = "/v2/message/regid"
+    REGID_URL = "/v2/message/regid"
     ALIAS_URL = "/v2/message/alias"
     TOPIC_URL = "/v2/message/topic"
     MTOPIC_URL = "/v2/message/multi_topic"
